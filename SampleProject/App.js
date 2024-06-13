@@ -1,11 +1,14 @@
-import { Text,View } from "react-native";
-
+import BottomTabNavigator from "./src/Navigation/BottomTabNavigator";
+import {NavigationContainer} from '@react-navigation/native'
+import {SafeAreaProvider} from 'react-native-safe-area-context'
 
 const App = () =>{
     return(
-        <View>
-            <Text>Hello React Native</Text>
-        </View>
+        <SafeAreaProvider>
+            <NavigationContainer>
+                <BottomTabNavigator/>
+            </NavigationContainer>
+        </SafeAreaProvider>
     )
 }
 
