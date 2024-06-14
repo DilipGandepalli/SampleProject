@@ -32,7 +32,8 @@ const BottomTabNavigator = () =>{
                     tabBarLabel :'Home',
                     tabBarIcon: ({ color, size }) => (
                         <MaterialCommunityIcons name="home" color={color} size={size} />
-                      ),                
+                      ),  
+                    tabBarHideOnKeyboard:true              
                 }}   
             />
 
@@ -43,7 +44,7 @@ const BottomTabNavigator = () =>{
                     tabBarLabel :'Details',
                     tabBarIcon: ({ color, size }) => (
                         <MaterialCommunityIcons name="information-outline" color={color} size={size} />
-                      ),                               
+                      )                           
                 }} 
             />
 

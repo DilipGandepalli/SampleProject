@@ -3,8 +3,8 @@ import React from 'react'
 
 const AddCustomer = () => {
   return (
-    <View>
-      <Text>AddCustomer</Text>
+    <View style={{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'#f6f6f6'}}>
+      <Text style={{fontSize:25}}>Add Customer</Text>
     </View>
   )
 }

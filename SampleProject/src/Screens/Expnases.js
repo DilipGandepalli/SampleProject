@@ -3,8 +3,8 @@ import React from 'react'
 
 const Expnases = () => {
   return (
-    <View>
-      <Text>Expnases</Text>
+    <View style={{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'#f6f6f6'}}>
+      <Text style={{fontSize:25}}>Expnases</Text>
     </View>
   )
 }
